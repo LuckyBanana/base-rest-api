@@ -2,6 +2,14 @@
 
 Template de base pour la création d'API REST / Web apps basé sur Express
 
+## Installation ##
+
+```
+mkdir new-project
+cd new-project
+git archive --remote=git@bitbucket.org:mvaret/base-rest-api.git HEAD | tar -x
+```
+
 ### Base de données ###
 
 Basé sur Knex. Nécessite l'installation du (des) drivers de base de données correspondants.
@@ -14,7 +22,7 @@ yarn add pg
 ```
 
 ```
-const Mysql = require('knex')({
+const Knex = require('knex')({
   client: 'mysql',
   connection: {
     host: config.Database.Host,

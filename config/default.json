@@ -1,0 +1,11 @@
+/* head /dev/urandom | tr -dc A-Za-z0-9 | head -c 504 ; echo ''head /dev/urandom | tr -dc A-Za-z0-9 | head -c 504 ; echo '' */
+{
+  "jwtSecret": "dev",
+  "Database": {
+    "Host": "",
+    "Port": 1521,
+    "Name": "",
+    "User": "",
+    "Password": ""
+  }
+}

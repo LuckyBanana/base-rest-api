@@ -1,0 +1,21 @@
+{
+  "name": "sync-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "config": "^1.25.1",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "express-jwt": "^5.1.0",
+    "js-common-utils": "https://mvaret@bitbucket.org/mvaret/js-common-utils.git",
+    "jsonwebtoken": "^7.3.0",
+    "knex": "^0.12.9",
+    "morgan": "~1.6.1",
+    "serve-favicon": "^2.4.2",
+    "winston": "^2.3.1"
+  }
+}

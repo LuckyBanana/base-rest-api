@@ -1,6 +1,5 @@
 const config = require('config')
 const knex = require('knex')
-const _ = require('js-common-utils')
 
 const api = require('../utils/api')
 const logger = require('../utils/logger')

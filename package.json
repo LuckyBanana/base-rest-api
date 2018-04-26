@@ -11,7 +11,6 @@
     "debug": "~2.2.0",
     "express": "~4.13.1",
     "express-jwt": "^5.1.0",
-    "js-common-utils": "https://mvaret@bitbucket.org/mvaret/js-common-utils.git",
     "jsonwebtoken": "^7.3.0",
     "knex": "^0.12.9",
     "morgan": "~1.6.1",
